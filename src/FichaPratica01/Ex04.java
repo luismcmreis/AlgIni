@@ -9,16 +9,19 @@ public class Ex04 {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        double raio, area;
+        double raio, area1, area2;
 
         // Ler inputs do utilizador
         System.out.print("Introduz o raio: ");
         raio = input.nextInt();
 
         // Calcular a área
-        area = Math.PI * raio * raio;
+        area1 = Math.PI * raio * raio;
+        area2 = Math.PI * Math.pow(raio,2);
 
         // Apresentar a área
-        System.out.println("Área: " + area);
+        System.out.println("Área: " + area1);
+        System.out.println("Área: " + area2);
+        System.out.println(Math.pow(2,3));
     }
 }
