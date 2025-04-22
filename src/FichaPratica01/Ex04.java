@@ -24,5 +24,6 @@ public class Ex04 {
         System.out.println("Área: " + area2);
         System.out.println(Math.pow(2,3));
         System.out.println("Hello");
+        System.out.println("Olá");
     }
 }
